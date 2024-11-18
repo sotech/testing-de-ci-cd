@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HomeData from "./home";
+import HomeDatas from "./home";
 import Social from "./social";
 export default function Home() {
   return (
@@ -48,7 +48,7 @@ export default function Home() {
           >
             Read our docs
           </a>
-          <HomeData />
+          <HomeDatas />
           <Social />
         </div>
       </main>
